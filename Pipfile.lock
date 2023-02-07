@@ -1,0 +1,60 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "1a9af0beffa10e259cf081f314487d2f5f9f47f66ee8a7ef013d5287908e7fc0"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.8"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "certifi": {
+            "hashes": [
+                "sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3",
+                "sha256:4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==2022.12.7"
+        },
+        "elastic-transport": {
+            "hashes": [
+                "sha256:19db271ab79c9f70f8c43f8f5b5111408781a6176b54ab2e54d713b6d9ceb815",
+                "sha256:b9ad708ceb7fcdbc6b30a96f886609a109f042c0b9d9f2e44403b3133ba7ff10"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==8.4.0"
+        },
+        "elasticsearch": {
+            "hashes": [
+                "sha256:4b71ad05b36243c3b13f1c89b3ede4357011eece68917e293c43d4177d565838",
+                "sha256:f09adbea8caa633ff79e8fe115fb1d2b635426fe1a23e7e8e3bd7cce5ac3eb70"
+            ],
+            "index": "pypi",
+            "version": "==8.5.3"
+        },
+        "environment": {
+            "hashes": [
+                "sha256:711bc2dc589fcc0f40d1cd916e7463e55d08ed3847fc6205549e0d3ff8084843"
+            ],
+            "index": "pypi",
+            "version": "==1.0.0"
+        },
+        "urllib3": {
+            "hashes": [
+                "sha256:47cc05d99aaa09c9e72ed5809b60e7ba354e64b59c9c173ac3018642d8bb41fc",
+                "sha256:c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
+            "version": "==1.26.13"
+        }
+    },
+    "develop": {}
+}
